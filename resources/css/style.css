@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 10px;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 10px 0 10px;
+}
+
+#logo img{
+    height: 50px;  
+}
+
+#nav{
+    display: flex;
+    justify-content:flex-start;
+}
+
+#nav a{
+    color: seashell;
+}
+
+
+
+#main{
+    padding-top: 70px;
+}
+
+#banner, #t-o-m, #locations{
+    
+}
+
+
+#header{
+    z-index: 30;
+}
+
+#banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-image{
+    z-index: 10;
+    margin: 0 auto;
+}
+
+#banner-image img{
+    height: 700px;
+}
+
+
+#banner-text{
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    z-index: 20;
+}
+
+
+#t-o-m{
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#teas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.image img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;    
+}
+
+
+#locations{
+    background-image: url(/resources/images/img-locations-background.jpg);
+    height: 500px;
+}
